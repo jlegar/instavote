@@ -8,7 +8,7 @@ replicas:
   count: 7
 
 configMapGenerator:
-- name: vote-literals
+- name: vote
   literals:
   - OPTION_A=STAGING
   - OPTION_B=DEV
