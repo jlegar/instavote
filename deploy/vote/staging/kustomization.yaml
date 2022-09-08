@@ -6,3 +6,9 @@ resources:
 replicas:
 - name: vote
   count: 7
+
+configMapGenerator:
+- name: vote-literals
+  literals:
+  - OPTION_A=STAGING
+  - OPTION_B=DEV
