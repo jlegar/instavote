@@ -8,7 +8,7 @@ replicas:
   count: 7
 
 images:
-- name: vote
+- name: schoolofdevops/vote
   newTag: v4
 
 configMapGenerator:
