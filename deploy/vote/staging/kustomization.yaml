@@ -7,6 +7,10 @@ replicas:
 - name: vote
   count: 7
 
+images:
+- name: vote
+  newTag: v4
+
 configMapGenerator:
 - name: vote
   literals:
