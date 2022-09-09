@@ -12,7 +12,7 @@ images:
   newTag: v4
 
 configMapGenerator:
-- name: vote
+- name: vote-config
   literals:
   - OPTION_A=STAGING
   - OPTION_B=DEV
