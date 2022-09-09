@@ -25,5 +25,5 @@ spec:
         imagePullPolicy: Always
         resources: {}
         envFrom:
-          configMapRef:
+        - configMapRef:
             name: vote-config
