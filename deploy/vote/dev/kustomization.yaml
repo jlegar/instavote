@@ -6,3 +6,13 @@ resources:
 replicas:
 - name: vote
   count: 2
+
+images:
+- name: schoolofdevops/vote
+  newTag: v4
+
+configMapGenerator:
+- name: vote-config
+  literals:
+  - OPTION_A=ADIDAS
+  - OPTION_B=NIKE
