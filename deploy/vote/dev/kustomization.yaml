@@ -6,7 +6,8 @@ replicas:
 - name: vote
   count: 2
 images:
-- name: jlegardevops/vote
+- name: schoolofdevops/vote
+  newName: jlegardevops/vote
   newTag: main-0d48417d-1663766328 # {"$imagepolicy": "flux-system:vote:tag"}
 configMapGenerator:
 - name: vote-config
